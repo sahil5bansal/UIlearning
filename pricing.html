@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment-Pricing</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <div class="navbar" id="navbar">
+        <div class="container">
+            <a class="logo" href="index.html">Remember<span>That</span></a>
+
+            <nav>
+                <ul class="primary-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li class="current"><a href="pricing.html">Pricing</a></li>
+                    <li><a class="about" href="about.html">About</a></li>
+                    <li><a class="about" href="projects.html">Projects</a></li>
+                </ul>
+    
+                <ul class="secondary-nav">
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="go-premium-cta"><a href="#">Go Premium</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div id = "pageNameInHeader">Pricing</div>
+    
+    <div class="hello"><h1 id="intro">This Is Pricing section</h1></div>
+    <div>
+        <ul class="price-text">
+            <li><div class="priceTable">
+                    <h3>Price Table</h3>
+                </div>
+            </li>
+            <li><p>We offer competitive prices.</p></li>
+        </ul>
+    </div>
+
+    <section class="mainSection plans">
+        <div class="plan" id="0" onclick="selectPlan(id)">
+            <img src="../images/bullet.svg" alt="tick" class="hiddenImage">
+            <ul>
+                <li><h3>Free</h3></li>
+                <li><p>Brief price Description</p></li>
+                <li class="pricePerMonth">
+                    <div class="priceColor priceFontSize" >
+                        <p>0</p>
+                    </div>
+                    <div class="dollarPerMonth">
+                        <div class="priceColor dollarProps">$</div>
+                        <div>per/month</div>
+                    </div>
+                </li>
+                <li><p>Only 2 Operators</p></li>
+                <li><p>Notifications</p></li>
+                <li><p>Landing pages</p></li>
+                <li><input type="submit" class="sendOffer" value="Order Now"></li>
+            </ul>   
+        </div>
+
+        <div class="plan" id="1" onclick="selectPlan(id)">
+            <img src="../images/bullet.svg" alt="tick" class="hiddenImage">
+            <ul>
+                <li><h3>Standard</h3></li>
+                <li><p>Brief price Description</p></li>
+                <li class="pricePerMonth">
+                    <div class="priceColor priceFontSize" >
+                        <p>5</p>
+                    </div>
+                    <div class="dollarPerMonth">
+                        <div class="priceColor dollarProps">$</div>
+                        <div>per/month</div>
+                    </div>
+                </li>
+                <li><p>5+ Operators</p></li>
+                <li><p>Notifications</p></li>
+                <li><p>Landing pages</p></li>
+                <li><input type="submit" class="sendOffer" value="Order Now"></li>
+            </ul> 
+        </div>
+
+        <div class="plan" id="2" onclick="selectPlan(id)">
+            <img src="../images/bullet.svg" alt="tick" class="hiddenImage">
+            <ul>
+                <li><h3>Premium</h3></li>
+                <li><p>Brief price Description</p></li>
+                <li class="pricePerMonth">
+                    <div class="priceColor priceFontSize white">
+                        <p>10</p>
+                    </div>
+                    <div class="dollarPerMonth">
+                        <div class="priceColor dollarProps white">$</div>
+                        <div>per/month</div>
+                    </div>
+                </li>
+                <li><p>10+ Operators</p></li>
+                <li><p>Notifications</p></li>
+                <li><p>Landing pages</p></li>
+                <li><input type="submit" class="sendOffer" value="Order Now"></li>
+            </ul>
+        </div>
+    </section>
+
+    <hr>
+    
+    <footer>
+        <section class="footOfPage">
+            <div class="bottomLeft evenWidth">
+                <img src="../images/menu.svg" alt="products">
+                <h3>Product</h3>
+            </div>
+            <div class="allReferences evenWidth">
+                <ul>
+                    <li>Resources</li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li>Blog</li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+    
+            <div class="allReferences evenWidth">
+                <ul>
+                    <li>Legal Stuff</li>
+                    <li>Disclaimer</li>
+                    <li>Financing</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms Of Services</li>
+                </ul>
+            </div>
+    
+            <div class="bottomRight evenWidth">
+                <h5>Knowing you are always on best energy deal.</h5>
+                <input id="putName" type="text" value="" >
+                <input id="putEmail" type="text" value="" >
+                <input id="putAge" type="text" value="" >
+                <input id="putHobbies" type="text" value="" >
+                
+                <input type="submit" value="Sign Up Now">
+            </div>
+        </section>
+        <div class="copyright">made with love - All Rights Reserved.</div>
+    </footer>
+
+    <script src="../index.js"></script>
+</body>
+
+
+</html>
